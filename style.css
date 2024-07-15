@@ -1,0 +1,98 @@
+body#bodyadc {
+    background-color: rgb(224, 196, 196);
+}
+
+body#bodysub {
+    background-color: aquamarine;
+}
+
+h1 {
+    font: bold 25pt Bahnschrift;
+}
+
+p#visor {
+    font: bold 20pt Bahnschrift;
+}
+
+a {
+    font: bold 12pt Arial;
+}
+
+p {
+    font: normal 15pt Arial;
+}
+
+div#ahan {
+    font: normal 14pt Arial;
+}
+
+div#ixim {
+    font: normal 14pt Arial;
+}
+
+div#abem {
+    font: normal 14pt Arial;
+}
+
+img {
+    display: block;
+    float: right;
+}
+
+p#numero1 {
+    font: normal 20pt Arial;
+}
+
+p#numero2 {
+    font: normal 20pt Arial;
+}
+
+.numberos {
+    display: inline-block;
+}
+
+p#numero1 {
+    font: normal 20pt Bahnschrift;
+}
+
+p#numero2 {
+    font: normal 20pt Bahnschrift;
+}
+
+.numb {
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font: normal 15pt Bahnschrift;
+}
+
+input#somabut {
+    background-color: rgb(74, 204, 74);
+}
+
+input#subsbut {
+    background-color: rgb(223, 61, 61);
+}
+
+input#multbut {
+    background-color: rgb(112, 112, 233);
+}
+
+input#divsbut {
+    background-color: rgb(112, 112, 233);
+}
+
+input#clear {
+    background-color: rgb(202, 200, 200);
+}
+
+#butao {
+    padding: 16px;
+    height: 60px;
+    width: 310px;
+    font: normal 15pt Bahnschrift;
+}
+
+p#ahan {
+    font: normal 20pt Bahnschrift;
+} 
