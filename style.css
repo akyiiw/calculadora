@@ -22,7 +22,7 @@ p {
     font: normal 15pt Arial;
 }
 
-div#ahan {
+div#resultado {
     font: normal 14pt Arial;
 }
 
@@ -86,6 +86,21 @@ input#clear {
     background-color: rgb(202, 200, 200);
 }
 
+input#potebut {
+    background-color: rgb(246, 236, 203);
+}
+
+
+input#radibut {
+    background-color: rgb(246, 236, 203);
+}
+
+
+input#fatobut {
+    background-color: rgb(246, 236, 203);
+}
+
+
 #butao {
     padding: 16px;
     height: 60px;
@@ -93,6 +108,6 @@ input#clear {
     font: normal 15pt Bahnschrift;
 }
 
-p#ahan {
+p#resultado {
     font: normal 20pt Bahnschrift;
 } 

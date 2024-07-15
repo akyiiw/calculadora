@@ -1,12 +1,11 @@
 //Cálculos
-var aha = document.getElementById('ahan')
-
 var firstNumber = document.getElementById('numero1')
+var maisOuMenos = document.getElementById('operaçao')
 var secondNumber = document.getElementById('numero2')
+var aha = document.getElementById('resultado')
 
 //sla prr
 var ForFirst = true;
-var maisOuMenos = document.getElementById('slamais')
 
 //Add Functions
 function applySom() {
@@ -34,6 +33,17 @@ function applyPot() {
     maisOuMenos.innerHTML = "^"
 }
 
+function applyRad() {
+    ForFirst = false;
+    maisOuMenos.innerHTML = "√"
+    firstNumber.innerHTML = ""
+}
+
+function applyFat() {
+    ForFirst = false;
+    maisOuMenos.innerHTML = "!"
+}
+
 function add1() {
     if (ForFirst) {
         firstNumber.innerHTML += "1";
@@ -42,6 +52,7 @@ function add1() {
         }
         aha.innerHTML = null;   
 }
+
 
 function add2() {
     if (ForFirst) {
@@ -161,8 +172,31 @@ function calc(){
 
     var resultadoPot = Number(valor1) ** Number(valor2)
     aha.innerHTML = `= ${resultadoPot}`;
-   }
-   
+//Radiciação
+   } else if (maisOuMenos.innerHTML === "√") {
+    var valor2 = Number(secondNumber.innerText)
+
+    var resultadoRad = Math.sqrt(valor2)
+    aha.innerHTML = `= ${resultadoRad}`;
+//Fatorial
+   } else if (maisOuMenos.innerHTML === "!") {
+    var valor1 = Number(firstNumber.innerText);
+    secondNumber.innerText = "";
+
+
+    function fatorial(num) {
+        if (num === 0 || num === 1) {
+            return 1;
+        }
+        for (var i = num - 1; i >= 1; i--) {
+            num *= i;
+        }
+        return num;
+    }
+    
+    aha.innerHTML = `= ${fatorial(Number(valor1))}`;
+    
+    }
 }
 
 function clearRes() {
