@@ -11,4 +11,4 @@
 - Ao realizar a operação radiciação, utilize primeiro o indicador da operação (√) e depois o número para obter a raiz quadrada do número desejado.
 
 ### Aviso:
-- A calculadora não possui capacidade de processar duas ou mais operações matemáticas em um só cálculo, ou seja, ao clicar em outro indicador de operação o atual será substituído.
+- A calculadora não possui capacidade de processar duas ou mais operações matemáticas em um só cálculo, ou seja, ao selecionar outro indicador de operação o atual será substituído.
